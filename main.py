@@ -256,7 +256,7 @@ print("\
   / ____|_   _|_   _|  \\/  | Script: ver equipos encendidos\n\
  | (___   | |   | | | \\  / | ver: 0.0.1\n\
   \\___ \\  | |   | | | |\\/| | Fecha: 20-11-19\n\
-  ____) |_| |_ _| |_| |  | | Por: Rigoberto M.\n\
+  ____) |_| |_ _| |_| |  | | Por: ]3/\\|)´|+|><.\n\
  |_____/|_____|_____|_|  |_| Horario: * días 10:30 p.m\n\
 ")
 warnings.simplefilter('ignore')
