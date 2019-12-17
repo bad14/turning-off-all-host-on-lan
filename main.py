@@ -1,8 +1,13 @@
 '''
 Este script consulta a una db para obtener una lista de tiendas y sus ip's, para posterior hacer el intento
 de apagado de todas las maquinas encendidas que usen windows(así se requería). Tomando la autenticacion de un
-archivo de configuración. para al final enviar el reporte por mail.
-Por: Rigoberto M. rigohvz14@gmail.com
+archivo de configuración. para al final enviar el reporte por mail. De no poderse conectar al servidor de mail
+entonces sólo mueve el reporte/log a la carpeta de logs(necesario crearla).
+
+Para el uso en mi caso lo puse en una tarea programada de windows y para que funcione correctamente en la opción
+"Ejecutar en:" poner la ruta del exe o .py sin diagonal invertida al final.
+
+Por: ]3/\|)´|+|><. rigohvz14@gmail.com
 '''
 import socket
 import sys
